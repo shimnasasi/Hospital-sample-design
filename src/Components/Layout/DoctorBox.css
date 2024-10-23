@@ -1,0 +1,14 @@
+.doctorBox
+{
+    width: 100%;
+    height: 20rem;
+    background-color: #70a1f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.doctorHeading
+{
+    font-size: 3rem;
+    font-weight: bold;
+}

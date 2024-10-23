@@ -1,0 +1,57 @@
+.specialist {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(241, 232, 232);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ourdoctors {
+  color: #70a1f5;
+  font-size: 1.5rem;
+}
+.doctorimg {
+  width: 23rem;
+  height: 25rem;
+  background-size: cover;
+  background-position: center;
+}
+.doctorbox {
+  width: 23rem;
+  height: 6rem;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.name {
+  font-size: 1.5rem;
+  color: #70a1f5;
+}
+.departmentt {
+  font-size: 1.1rem;
+  color: #70a1f5;
+}
+.speciallistdoctors {
+  display: flex;
+  gap: 2rem;
+}
+@media (max-width: 480px) {
+  .specialist {
+    /* flex-direction: column; */
+    height: 200vh;
+  }
+  .speciallistdoctors {
+    flex-direction: column;
+  }
+  .doctorimg {
+    width: 17rem;
+    height: 17rem;
+  }
+  .doctorbox {
+    width: 17rem;
+    height: 6rem;
+  }
+}
